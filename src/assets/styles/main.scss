@@ -1,0 +1,51 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  font-family: 'Roboto Slab', serif;
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  // background-color: #3C4858;
+  background: url('../images/bg-image.jpg') no-repeat top center #3C4858;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: auto;
+}
+
+.bd-masthead {
+    position: relative;
+    padding: 3rem 15px;
+    @media (min-width: 576px) {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+}
+
+.logoImage {
+  width: 114px;
+  height: 100px;
+  fill: #1FB6FF;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2{ 
+  font-size: 2rem;
+}
+.rsc-container.eYDtoc {
+  border: 1px solid #000;
+}
+.rsc  {
+  position: relative;
+  top: 10px;
+}
+
+
+.getting-text {
+  padding: 20px;
+  border-radius: 3px;
+  background: rgba(255,255,255,.5);
+}
